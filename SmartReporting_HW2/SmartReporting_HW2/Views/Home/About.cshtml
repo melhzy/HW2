@@ -1,7 +1,39 @@
-﻿@{
-    ViewBag.Title = "About";
-}
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+﻿<!DOCTYPE html>
+<html ng-app>
+<head>
+    <title ng-bind="testAngularTitle"></title>
+    <script src="~/Scripts/angular.min.js"></script>
 
-<p>Use this area to provide additional information.</p>
+</head>
+<body>
+    @{ViewBag.Title = "About";}
+    <h2>@ViewBag.Title.</h2>
+    
+    <h3>@ViewBag.Message</h3>
+    <p>
+        Convert your Assignment 1 webpage to use AngularJS and Bootstrap CSS. <br />
+        If you don't want to use your existing application you can create a new one from scratch,
+        however you need to start with a branch of your old repository. The point of this assignment is
+        to introduce you get hands-on experience working with AngularJS and Bootstrap as well as make use of
+        Git in a workflow, which is used in real-world development. <br />
+        Requirements: <br />
+        Create a branch based on your Assignment 1 application, and convert the web page to use AngularJS
+        and Bootstrap CSS. The site can have any content/theme that you want (be creative). <br />
+        The only requirements are as follows: <br />
+        1. The site must use AngularJS and Bootstrap CSS (for layout and any additional styling).<br />
+        2. The site should have at least 2 different routes (for example: home and about routes/pages).<br />
+        Bonus (not required):<br />
+        1. Use the $http service<br />
+        2. Make use of a JavaScript library/framework<br />
+        Submission Format:<br />
+        Ziyuan's submission: <a href="https://github.com/melhzy/HW2/">Click here to visit Ziyuan's HW2 submission.</a>
+    </p>
+    <hr />
+    <h3>{{testAngularTitle}}</h3>
+    
+    <p>Please enter your project evaluation information here. AngularJS will populate it in the web page.</p>
+
+    <textarea style="width: 400px; height: 100px;" ng-model="testAngularTitle" placeholder="Please start your typing here..."></textarea>
+
+</body>
+</html>

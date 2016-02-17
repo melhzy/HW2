@@ -18,4 +18,6 @@ namespace SmartReporting_HW2
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
     }
+
+
 }

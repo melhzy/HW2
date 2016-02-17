@@ -1,0 +1,4 @@
+C:\Users\Mel\Dropbox\HU\ISEM-551-50\HW2\SmartReporting_HW2\ModelsLayer\bin\Debug\ModelsLayer.dll
+C:\Users\Mel\Dropbox\HU\ISEM-551-50\HW2\SmartReporting_HW2\ModelsLayer\bin\Debug\ModelsLayer.pdb
+C:\Users\Mel\Dropbox\HU\ISEM-551-50\HW2\SmartReporting_HW2\ModelsLayer\obj\Debug\ModelsLayer.dll
+C:\Users\Mel\Dropbox\HU\ISEM-551-50\HW2\SmartReporting_HW2\ModelsLayer\obj\Debug\ModelsLayer.pdb

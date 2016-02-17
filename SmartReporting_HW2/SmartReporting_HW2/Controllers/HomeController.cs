@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using BusinessLayer;
+using DataAccessLayer;
+using ModelsLayer;
 
 namespace SmartReporting_HW2.Controllers
 {
@@ -15,16 +18,18 @@ namespace SmartReporting_HW2.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Project description page.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Company's headquarters.";
 
-            return View();
+            var ReportList = BusinessInformation.GetReportData();
+
+            return View(ReportList);
         }
     }
 }

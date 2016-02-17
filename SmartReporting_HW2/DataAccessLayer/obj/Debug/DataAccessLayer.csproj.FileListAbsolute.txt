@@ -1,0 +1,4 @@
+C:\Users\Mel\Dropbox\HU\ISEM-551-50\HW2\SmartReporting_HW2\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Mel\Dropbox\HU\ISEM-551-50\HW2\SmartReporting_HW2\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Mel\Dropbox\HU\ISEM-551-50\HW2\SmartReporting_HW2\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Mel\Dropbox\HU\ISEM-551-50\HW2\SmartReporting_HW2\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

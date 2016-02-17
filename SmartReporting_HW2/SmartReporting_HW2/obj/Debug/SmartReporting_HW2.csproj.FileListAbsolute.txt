@@ -53,3 +53,10 @@ C:\Users\Mel\Dropbox\HU\ISEM-551-50\HW2\SmartReporting_HW2\SmartReporting_HW2\bi
 C:\Users\Mel\Dropbox\HU\ISEM-551-50\HW2\SmartReporting_HW2\SmartReporting_HW2\obj\Debug\SmartReporting_HW2.csprojResolveAssemblyReference.cache
 C:\Users\Mel\Dropbox\HU\ISEM-551-50\HW2\SmartReporting_HW2\SmartReporting_HW2\obj\Debug\SmartReporting_HW2.dll
 C:\Users\Mel\Dropbox\HU\ISEM-551-50\HW2\SmartReporting_HW2\SmartReporting_HW2\obj\Debug\SmartReporting_HW2.pdb
+C:\Users\Mel\Dropbox\HU\ISEM-551-50\HW2\SmartReporting_HW2\SmartReporting_HW2\bin\GridMvc.dll
+C:\Users\Mel\Dropbox\HU\ISEM-551-50\HW2\SmartReporting_HW2\SmartReporting_HW2\bin\BusinessLayer.dll
+C:\Users\Mel\Dropbox\HU\ISEM-551-50\HW2\SmartReporting_HW2\SmartReporting_HW2\bin\DataAccessLayer.dll
+C:\Users\Mel\Dropbox\HU\ISEM-551-50\HW2\SmartReporting_HW2\SmartReporting_HW2\bin\ModelsLayer.dll
+C:\Users\Mel\Dropbox\HU\ISEM-551-50\HW2\SmartReporting_HW2\SmartReporting_HW2\bin\BusinessLayer.pdb
+C:\Users\Mel\Dropbox\HU\ISEM-551-50\HW2\SmartReporting_HW2\SmartReporting_HW2\bin\DataAccessLayer.pdb
+C:\Users\Mel\Dropbox\HU\ISEM-551-50\HW2\SmartReporting_HW2\SmartReporting_HW2\bin\ModelsLayer.pdb

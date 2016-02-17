@@ -1,17 +1,34 @@
-﻿@{
-    ViewBag.Title = "Contact";
-}
-<h2>@ViewBag.Title.</h2>
+﻿@{ViewBag.Title1 = "Welcome to company's report list page";}
+@{ViewBag.Title2 = "Report list";}
+@model IEnumerable<ModelsLayer.ModelsInformation>
+@using GridMvc.Html
+
+<h2>@ViewBag.Title1.</h2>
 <h3>@ViewBag.Message</h3>
 
 <address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
+    9559 Sunbelt Street Unit 308<br />
+    Tampa, FL 33635<br />
+    <abbr title="Phone">P:</abbr>612.636.2595 <br />
+    <abbr title="StudentID">SID:</abbr>156230
 </address>
 
+<h3>@ViewBag.Title2.</h3>
+<div>
+    @if (Model != null && Model.Count() > 0)
+    {
+        <div class="panel panel-primary pre-scrollable">
+            @Html.Grid(Model).Named("ReportData").Columns(columns =>
+            {
+                columns.Add(col => col.ReportID).Titled("Report ID");
+                columns.Add(col => col.ReportName).Titled("Report Name");
+                columns.Add(col => col.ReportDesc).Titled("Report Description");
+                                
+            }).WithPaging(3).Sortable()
+        </div>
+    }
+</div>
+
 <address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+    <strong>Support:</strong>   <a href="mailto:ZHuang@my.harrisburgu.edu">ZHuang@my.harrisburgu.edu</a>
 </address>
